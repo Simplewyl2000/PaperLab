@@ -1,0 +1,17 @@
+x=0:0.2:4;
+y1=[100;65;41;30;27;25;23;21;19;18;16;14;12;11;10;9;7;4;3;2;2];
+bar(x,y1');
+%c=[99,99,83,24];
+%d=[98,96,46,14];
+%e=[99,86,16,3];
+hold on;
+a=0:0.2:4;
+b=[100,65,41,30,27,25,23,21,19,18,16,14,12,11,10,9,7,4,3,2,2];
+plot(a,b,'LineWidth',2,'MarkerFaceColor','b');
+X=0:0.4:4;
+Y=0:10:100;
+set(gca,'FontSize',18,'xtick',X,'ytick',Y);
+xlabel('Searching ratio','FontName','Times New Roman','FontSize',30);
+ylabel('Diameter','FontName','Times New Roman','FontSize',30,'Rotation',90);
+%grid on;
+title('Facebook','FontSize',25);

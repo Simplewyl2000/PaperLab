@@ -1,0 +1,14 @@
+x=0:0.2:4;
+y1=[99;73;61;50;43;38;37;34;29;27;25;20;16;14;11;10;10;8;7;6;6];
+bar(x,y1');
+hold on;
+a=0:0.2:4;
+b=[99,73,61,50,43,38,37,34,29,27,25,20,16,14,11,10,10,8,7,6,6];
+plot(a,b,'LineWidth',2,'MarkerFaceColor','b');
+X=0:0.4:4;
+Y=0:10:100;
+set(gca,'FontSize',18,'xtick',X,'ytick',Y);
+xlabel('Searching ratio','FontName','Times New Roman','FontSize',30);
+ylabel('Diameter','FontName','Times New Roman','FontSize',30,'Rotation',90);
+%grid on;
+title('DBLP','FontSize',25);

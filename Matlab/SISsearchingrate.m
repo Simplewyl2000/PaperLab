@@ -1,0 +1,10 @@
+line([0,1],[0.8,0.8],'LineWidth',5,'color','b');
+hold on;
+plot(0,1,'MarkerSize',5);
+X=0:0.1:1;
+Y=0:0.1:1;
+set(gca,'FontSize',18,'xtick',X,'ytick',Y);
+xlabel('1-p','FontName','Times New Roman','FontSize',30);
+ylabel('I_\infty','FontName','Times New Roman','FontSize',30,'Rotation',90);
+grid on;
+title('SIS','FontSize',25);
